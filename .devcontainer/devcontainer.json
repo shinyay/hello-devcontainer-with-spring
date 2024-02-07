@@ -44,6 +44,11 @@
 		}
 	},
 
+	// Default options for ports, port ranges, and hosts that aren’t configured using portsAttributes.
+	"otherPortsAttributes": {
+		"onAutoForward": "ignore"
+	},
+
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [8080],
 
