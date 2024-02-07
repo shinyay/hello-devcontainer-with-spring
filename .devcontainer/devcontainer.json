@@ -3,7 +3,7 @@
 {
 	"name": "Java for Spring Boot",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
+	// "image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
 
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
@@ -29,8 +29,11 @@
 				"vscjava.vscode-spring-initializr",
 				// Gradle for Java
 				"vscjava.vscode-gradle"
+				// Git Graph of your repository
+				"mhutchie.git-graph"
 			],
 			"settings": {
+				"editor.formatOnSave": true,
 				"workbench.colorCustomizations": {
                     "titleBar.activeBackground": "#19549C",
                     "titleBar.activeForeground": "#ffffff",
