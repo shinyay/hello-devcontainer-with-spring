@@ -1,0 +1,7 @@
+services:
+  java-backend:
+    container_name: java-application
+    build: ./docker/java
+    volumes:
+      - ..:/work:cached
+    command: sleep infinity
