@@ -6,6 +6,10 @@ Overview
 
 ## Demo
 
+```shell
+spring init --type gradle-project-kotlin -j 21 -d web -n spring-app spring-app
+```
+
 ## Features
 
 - feature:1
