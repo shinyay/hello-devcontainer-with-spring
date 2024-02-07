@@ -1,5 +1,5 @@
 services:
-  java-backend:
+  java-for-spring:
     container_name: java-application
     build: ./docker/java
     volumes:
