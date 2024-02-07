@@ -29,7 +29,15 @@
 				"vscjava.vscode-spring-initializr",
 				// Gradle for Java
 				"vscjava.vscode-gradle"
-			]
+			],
+			"settings": {
+				"workbench.colorCustomizations": {
+                    "titleBar.activeBackground": "#19549C",
+                    "titleBar.activeForeground": "#ffffff",
+                    "activityBar.background": "#02A7E3",
+                    "activityBar.foreground": "#ffffff"					
+				}
+			}
 		}
 	},
 
