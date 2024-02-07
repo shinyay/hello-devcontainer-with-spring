@@ -7,7 +7,8 @@ Overview
 ## Demo
 
 ```shell
-spring init --type gradle-project-kotlin -j 21 -d web -n spring-app spring-app
+spring init --type gradle-project-kotlin -j 21 -d web -n spring-app spring init --type gradle-project-kotlin --language kotlin -j 21 -d web -n spr
+ing-app spring-app
 ```
 
 ## Features
