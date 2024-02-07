@@ -28,7 +28,7 @@
 				// Spring Initializr Java Support
 				"vscjava.vscode-spring-initializr",
 				// Gradle for Java
-				"vscjava.vscode-gradle"
+				"vscjava.vscode-gradle",
 				// Git Graph of your repository
 				"mhutchie.git-graph"
 			],
