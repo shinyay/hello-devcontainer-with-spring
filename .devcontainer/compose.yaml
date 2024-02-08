@@ -1,7 +1,9 @@
 services:
   java-for-spring:
-    container_name: java-application
-    build: ./docker/java
+    container_name: spring-application
+    build:
+      context: ./docker/java
+      dockerfile: Dockerfile
     volumes:
       - ..:/work:cached # cached, delegated, default
     command: sleep infinity
