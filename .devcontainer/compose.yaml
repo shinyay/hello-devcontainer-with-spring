@@ -11,6 +11,8 @@ services:
     ports:
       - "8080:8080"
     command: sleep infinity
+    depends_on:
+      - mysql
 
   mysql:
     container_name: backend-mysql
