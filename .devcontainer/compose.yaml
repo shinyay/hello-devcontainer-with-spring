@@ -1,6 +1,8 @@
 services:
   java:
     container_name: spring-application
+    environment:
+      - TZ=Asia/Tokyo
     build:
       context: ./docker/java
       dockerfile: Dockerfile
