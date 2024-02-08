@@ -34,7 +34,9 @@
 				// Gradle for Java
 				"vscjava.vscode-gradle",
 				// Git Graph of your repository
-				"mhutchie.git-graph"
+				"mhutchie.git-graph",
+				// Docker for Visual Studio Code
+				"ms-azuretools.vscode-docker"
 			],
 			"settings": {
 				"editor.formatOnSave": true,
