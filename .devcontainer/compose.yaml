@@ -3,5 +3,5 @@ services:
     container_name: java-application
     build: ./docker/java
     volumes:
-      - ..:/work:cached
+      - ..:/work:cached # cached, delegated, default
     command: sleep infinity
