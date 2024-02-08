@@ -1,5 +1,5 @@
 services:
-  java-for-spring:
+  java:
     container_name: spring-application
     build:
       context: ./docker/java
