@@ -9,3 +9,18 @@ services:
     ports:
       - "8080:8080"
     command: sleep infinity
+
+  mysql:
+    container_name: backend-mysql
+    build:
+      context: ./docker/database
+      dockerfile: Dockerfile.mysql
+    env_file:
+      - ./docker/mysql/.env
+    ports:
+      - 3306:3306
+    volumes:
+      - db-store:/var/lib/mysql
+volumes:
+  spring-store:
+  spring-logs:
