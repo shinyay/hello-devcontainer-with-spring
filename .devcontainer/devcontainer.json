@@ -29,6 +29,8 @@
 			"extensions": [
 				// Spring Boot Extension Pack
 				"vmware.vscode-boot-dev-pack",
+				// Extension Pack for Java
+				"vscjava.vscode-java-pack",
 				// Spring Initializr Java Support
 				"vscjava.vscode-spring-initializr",
 				// Gradle for Java
