@@ -16,11 +16,11 @@ services:
       context: ./docker/database
       dockerfile: Dockerfile.mysql
     env_file:
-      - ./docker/mysql/.env
+      - ./docker/database/.env
     ports:
       - 3306:3306
     volumes:
-      - db-store:/var/lib/mysql
+      - ./docker/database/data:/var/lib/mysql
 volumes:
   spring-store:
   spring-logs:
