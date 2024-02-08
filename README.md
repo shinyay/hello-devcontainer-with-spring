@@ -11,6 +11,10 @@ spring init --type gradle-project-kotlin -j 21 -d web -n spring-app spring init 
 ing-app spring-app
 ```
 
+```shell
+mysql -h backend-mysql -u spring -ppassword
+```
+
 ## Features
 
 - feature:1
