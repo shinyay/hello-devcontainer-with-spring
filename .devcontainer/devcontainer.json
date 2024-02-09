@@ -38,7 +38,7 @@
 				// Docker for Visual Studio Code
 				"ms-azuretools.vscode-docker",
 				// VSCode .env syntax highlighting
-				"dotenv.dotenv-vscode",
+				"dotenv.dotenv-vscode"
 			],
 			"settings": {
 				"editor.formatOnSave": true,
