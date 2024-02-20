@@ -7,7 +7,7 @@
 	"service": "java",
 	"dockerComposeFile": "./compose.yaml",
 	"shutdownAction": "stopCompose",
-	"workspaceFolder": "/work",
+	"workspaceFolder": "/workspace",
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "none",
