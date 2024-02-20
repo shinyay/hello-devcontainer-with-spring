@@ -7,7 +7,7 @@ services:
       context: ./docker/java
       dockerfile: Dockerfile
     volumes:
-      - ..:/work:cached # cached, delegated, default
+      - ../workspace:/workspace:cached # cached, delegated, default
     ports:
       - "8080:8080"
     command: sleep infinity
